@@ -1,0 +1,15 @@
+---
+title: 3D Scanner
+subtitle: Intern Project
+layout: default
+modal-id: 4
+date: 2014-07-15
+img: scanner.gif
+thumbnail: scanner-thumbnail.png
+alt: image-alt
+project-date: September 2019
+client: Nova Product Design
+category: Arduino
+description: This project was to create a 3D scanner using the parts of an old 3D printer. I designed the parts in Solidworks and 3D printed them to form the chassis. The core electronics included the arduino UNO, stepper motor drivers, an SD card reader, and a bluetooth module. These components were controlled using the desktop application that I made in Python.
+
+---

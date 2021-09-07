@@ -1,0 +1,35 @@
+url: https://mgovilla.github.io
+baseurl: 
+
+# Site settings
+title: Mayank Govilla | Portfolio
+email: mgovilla@gmail.com
+description: "Mayank Govilla's portfolio website of projects"
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/profile.php?id=100009357395689
+  - title: linkedin
+    url: https://www.linkedin.com/in/mayank-govilla
+  - title: github
+    url: http://github.com/mgovilla
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 51 Gatheringhill Ct 
+  - line: Morris Plains, NJ 07950
+
+skills:
+  - name: HTML/CSS
+    proficiency: 70
+  - name: Python
+    proficiency: 80
+  - name: Java
+    proficiency: 80
+  - name: Linux
+    proficiency: 60
+    
+# Build settings
+markdown: kramdown
+permalink: pretty

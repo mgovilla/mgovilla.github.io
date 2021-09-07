@@ -2,7 +2,7 @@
     
     "use strict";
     
-    //===== Prealoder
+    //===== Preloader
     
     $(window).on('load', function(event) {
         $('.preloader').delay(20).fadeOut(500);
@@ -48,7 +48,7 @@
 
         scrollLink.each(function() {
 
-          var sectionOffset = $(this.hash).offset().top - 73;
+          var sectionOffset = $(this.hash).offset().top - 120;
 
           if ( sectionOffset <= scrollbarLocation ) {
             $(this).parent().addClass('active');
@@ -119,20 +119,5 @@
             scrollTop: 0,
         }, 1500);
     });
-    
-
-    
-    //===== 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        
 }(jQuery));
