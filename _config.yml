@@ -8,8 +8,6 @@ description: "Mayank Govilla's portfolio website of projects"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: facebook
-    url: https://www.facebook.com/profile.php?id=100009357395689
   - title: linkedin
     url: https://www.linkedin.com/in/mayank-govilla
   - title: github
