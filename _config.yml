@@ -1,0 +1,66 @@
+url: https://mgovilla.github.io
+baseurl: 
+
+# Site settings
+title: Mayank Govilla | Portfolio
+email: mgovilla@gmail.com
+description: "Mayank Govilla's portfolio website of projects"
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/mayank-govilla
+  - title: github
+    url: http://github.com/mgovilla
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 51 Gatheringhill Ct 
+  - line: Morris Plains, NJ 07950
+
+skills:
+  - name: HTML/CSS
+    proficiency: 70
+  - name: Python
+    proficiency: 80
+  - name: Java
+    proficiency: 80
+  - name: Linux
+    proficiency: 60
+  
+
+work:
+  - name: FTC Rover Ruckus Robot
+    image: w-1.jpg
+    desc: > 
+      I was the main builder and programmer on my FTC team, 
+      and learned a lot about systems design while working on this robot.
+  - name: Engineering Product Design
+    image: w-2.jpg
+    desc: >
+      This was a project to make a robot drive up a wall, and this was my first
+      real Arduino project with bluetooth and mobile connectivity
+  - name: FTC Relic Recovery Robot
+    image: w-3.jpg
+    desc: >
+      This was the year I became "lead builder and programmer", so I learned
+      the major responsibilities that are associated with that title.
+  - name: TSA Animatronics
+    image: w-4.gif
+    desc: >
+      For the TSA competition, my team made a writing robot in one weekend, 
+      and although it was crude, it worked pretty well in the end.
+  - name: Antweight Battlebot
+    image: w-5.jpg
+    desc: >
+      This was part of the battlebot marathon, so my team and I created this 
+      robot from scratch in 24 hours.
+  - name: Light up Sign
+    image: w-6.gif
+    desc: >
+      For fun, I made an RGB LED sign with the FTC logo laser engraved 
+      in acrylic controlled with a potentiometer.
+      
+# Build settings
+markdown: kramdown
+permalink: pretty

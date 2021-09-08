@@ -1,0 +1,39 @@
+<section id="work" class="work-area pt-125 pb-130">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center pb-25">
+                    <h2 class="title">Other Projects</h2>
+                    <p> These are some of the projects that I have worked on in the past few years. Hover over
+                        them to
+                        learn more about each one.
+                    </p>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+        <div class="row">
+            {% for work in site.work %}
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-work text-center mt-30">
+                    <div class="work-image">
+                        <img src="assets/images/work/{{ work.image }}" alt="work">
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-content">
+
+                            <h3 class="work-title">{{ work.name }}</h3>
+                            <p style="color: white; margin: 15px">
+                                {{ work.desc }}
+                            </p>
+                            <ul>
+                                <li><a class="image-popup" href="assets/images/work/{{ work.image }}"><i
+                                            class="lni-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- single work -->
+            </div>
+            {% endfor %}
+        </div>
+    </div> <!-- container -->
+</section>

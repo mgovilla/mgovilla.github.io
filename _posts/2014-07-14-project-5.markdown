@@ -1,0 +1,13 @@
+---
+title: Goatbook
+subtitle: HACK@WPI 2020 Project
+layout: default
+modal-id: 5
+date: 2014-07-14
+img: goatbook.png
+thumbnail: goatbook-thumbnail.png
+alt: image-alt
+project-date: March 2021
+description: Goatbook allows users to dynamically subscribe to groups of their interests and join queues based on what activities they want to participate in. Goatbook will send notifications to subscribed users when a queue becomes full, and will put all users in a queue into an anonymous chatroom to decide whether they would like to share details and meet up, whether that be in a small group or online.
+
+---
