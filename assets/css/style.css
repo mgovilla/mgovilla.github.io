@@ -1085,7 +1085,19 @@ p {
 }
 
 .modal .modal-content img {
-  margin-bottom: 30px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.modal-body * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 /*===========================

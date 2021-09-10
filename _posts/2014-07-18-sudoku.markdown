@@ -1,0 +1,15 @@
+---
+title: Sudoku Solver
+subtitle: Personal Project
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: sudoku.gif
+thumbnail: sudoku-thumbnail.png
+alt: image-alt
+project-date: July 2020
+link: https://github.com/mgovilla/sudoku 
+category: Algorithms
+description: I've always enjoyed playing puzzle games and Sudoku is one of the best. While learning about P vs NP, I found that the Sudoku problem is classified as NP-complete which was not consistent with my intuition as I was always able to solve the boards without needing to guess and check. So I decided to create a heuristic-based Sudoku solver using the techniques I knew. While trying to randomly generate boards with the algorithm, I found that it worked over 90% of the time, but that last few percent was just not possible no matter what heuristics I added. I realized that the boards that I was solving were created to be solved, and those heuristics are not enough in the general case. At this point, I switched to solving and generating the Sudoku boards with the Dancing Links algorithm. Overall, I learned a lot about backtracking efficiently, heuristics, and data structures through this experience.
+
+---
